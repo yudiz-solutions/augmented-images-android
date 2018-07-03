@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Augmented Images</string>
+    <string name="fit_image_to_scan">Fit image to scan</string>
+    <string name="int__web_view_act__url">1</string>
+    <string name="yudiz_site_url">http://www.yudiz.com</string>
+    <string name="yudiz_linked_in_url">https://in.linkedin.com/company/yudiz-solutions-pvt-ltd</string>
+    <string name="choose">Choose</string>
+    <string name="yudiz_mail_address">contact@yudiz.com</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRoot"
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <com.google.ar.core.examples.java.common.helpers.CircularImageView
+        android:id="@+id/ivYudiz"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_yudiz" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/ivContactUs"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_mail" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ivLinkedIn"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_linkedin" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
